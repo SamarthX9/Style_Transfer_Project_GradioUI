@@ -1,0 +1,33 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual Environment
+venv/
+.env
+.env.*
+
+# VS Code
+.vscode/
+
+# Training datasets
+content_data/
+style_data/
+
+# Training experiments (keep only final model)
+experiment/big_data/
+experiment/experiment2/
+experiment/trial/
+experiment/trial2/
+
+# Python cache
+.pytest_cache/
+.mypy_cache/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
